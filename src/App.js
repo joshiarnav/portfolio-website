@@ -2,7 +2,16 @@ import logo from "./logo.svg";
 import React from "react";
 import { Routes } from "react-router-dom";
 import Navbar from "./components/Navbar/Navbar";
-import { ThemeProvider, createTheme } from "@mui/material/styles";
+import {
+  ThemeProvider,
+  createTheme,
+  responsiveFontSizes,
+} from "@mui/material/styles";
+import PageBox from "./components/PageBox/PageBox";
+import WelcomePage from "./pages/Welcome/WelcomePage";
+import AboutPage from "./pages/About/AboutPage";
+import ExperiencePage from "./pages/Experience/ExperiencePage";
+import ProjectsPage from "./pages/Projects/ProjectsPage";
 
 // const theme = createTheme({
 //   palette: {
@@ -15,7 +24,7 @@ import { ThemeProvider, createTheme } from "@mui/material/styles";
 //   },
 // });
 
-const theme = createTheme({
+let theme = createTheme({
   // palette: {
   //   text: {
   //     primary: "#ffffff",
@@ -46,13 +55,19 @@ const theme = createTheme({
   // },
 });
 
+theme = responsiveFontSizes(theme);
+
 const App = () => {
   // <Routes>
   //   <Route path="/" element={<Home />} />
   // </Routes>;
   return (
     <ThemeProvider theme={theme}>
-      <Navbar></Navbar>
+      <Navbar />
+      <WelcomePage />
+      <AboutPage />
+      <ExperiencePage />
+      <ProjectsPage />
     </ThemeProvider>
   );
 };

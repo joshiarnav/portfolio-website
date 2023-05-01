@@ -47,12 +47,14 @@ const Navbar = () => {
     //   </Typography>
     // </div> */}
     <div className="navbar">
-      <NavLink href="/">&lt;arnav.dev/&gt;</NavLink>
+      <NavLink href="#">&lt;arnav.dev/&gt;</NavLink>
       <div className="navlinks">
         <NavLink href="#about">About</NavLink>
         <NavLink href="#experience">Experience</NavLink>
         <NavLink href="#projects">Projects</NavLink>
-        <NavLink href="#resume">Resume</NavLink>
+        <NavLink href="https://drive.google.com/file/d/1hXUNC39PfBKwWu6QdSngr82rz1YgkW8V/view?usp=sharing">
+          Resume
+        </NavLink>
       </div>
       {/* <Typography variant="h6">&lt;arnav.dev/&gt;</Typography> */}
       {/* <p>&lt;arnav.dev&gt;</p>

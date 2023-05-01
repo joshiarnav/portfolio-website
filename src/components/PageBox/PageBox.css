@@ -1,0 +1,14 @@
+.divider {
+  height: var(--nav-height);
+}
+
+.pagebox {
+  height: calc(100vh - var(--nav-height));
+  /* max-height: 85vh; */
+  /* margin-top: 15vh; */
+  border: 1px solid red;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  /* overflow: hidden; */
+  min-height: 600px;
+}
