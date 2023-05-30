@@ -48,26 +48,6 @@ const Navbar = () => {
   ];
 
   return (
-    // <Box className="navbar">
-    //   <Grid
-    //     container
-    //     direction="row"
-    //     justifyContent="space-between"
-    //     alignItems="center"
-    //   >
-    //     <Grid item xs={3}>
-    //       <Typography variant="h6">&lt;arnav.dev/&gt;</Typography>
-    //     </Grid>
-    //     <Grid item xs={3}>
-    //       <Typography variant="h6">&lt;arnav.dev/&gt;</Typography>
-    //     </Grid>
-    //   </Grid>
-    // </Box>
-    // {/* <div position="fixed" className="navbar">
-    //   <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-    //     &lt;arnav.dev/&gt;
-    //   </Typography>
-    // </div> */}
     <div>
       <Box className="navbar" sx={{ display: { xs: "none", md: "flex" } }}>
         <NavLink href="#">&lt;arnav.dev/&gt;</NavLink>
@@ -77,24 +57,13 @@ const Navbar = () => {
               {name}
             </NavLink>
           ))}
-          {/* <NavLink href="#about">About</NavLink>
-          <NavLink href="#experience">Experience</NavLink>
-          <NavLink href="#projects">Projects</NavLink>
-          <NavLink href="https://drive.google.com/file/d/1hXUNC39PfBKwWu6QdSngr82rz1YgkW8V/view?usp=sharing">
-            Resume
-          </NavLink> */}
         </div>
-        {/* <Typography variant="h6">&lt;arnav.dev/&gt;</Typography> */}
-        {/* <p>&lt;arnav.dev&gt;</p>
-      <p>&lt;arnav.dev&gt;</p> */}
       </Box>
       <Box className="navbar" sx={{ display: { xs: "flex", md: "none" } }}>
         <Box sx={{ width: "10%" }}>
           <IconButton
             size="large"
             aria-label="account of current user"
-            // aria-controls="menu-appbar"
-            // aria-haspopup="true"
             onClick={() => {
               setDrawerOpen(true);
             }}
