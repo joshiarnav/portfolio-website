@@ -11,7 +11,7 @@ const WelcomePage = (props) => {
           justifyContent: "center",
           display: "flex",
           flexDirection: "column",
-          paddingLeft: "10%",
+          paddingLeft: "5%",
         }}
       >
         <Typography variant="h6">Hi! My name is</Typography>
