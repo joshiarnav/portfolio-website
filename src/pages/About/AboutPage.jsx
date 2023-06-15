@@ -17,10 +17,10 @@ const AboutPage = () => {
             <img src={portrait} alt="Portrait" />
           </div>
           <div class="grid-item-about description">
-            <h5>
+            <h4>
               Hi! My name is Arnav and I am a software developer with a passion
               for problem solving!
-            </h5>
+            </h4>
             <p>
               I've been tinkering with computers since I was a kid, and I've
               always been fascinated by the way they work. I love to learn new

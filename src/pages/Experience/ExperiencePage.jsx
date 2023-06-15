@@ -17,6 +17,7 @@ const ExperiencePage = () => {
           alignItems: "center",
           flex: "auto",
           marginTop: "2.5%",
+          paddingBottom: "10%",
         }}
       >
         <ExperienceCard />

@@ -29,8 +29,7 @@ const ProjectsPage = () => {
     },
     {
       title: "MBTI Text Classifier",
-      desc:
-        "Text classifier to predict a personality type based on writing style.",
+      desc: "Text classifier to predict personality type on writing style.",
       github: "#experience",
     },
     {

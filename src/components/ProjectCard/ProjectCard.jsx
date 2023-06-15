@@ -28,30 +28,6 @@ const ProjectCard = (props) => {
           </IconButton>
         ) : null}
       </div>
-
-      {/* <div className="experience-titles">
-        <div className="exp-title" onClick={handleClick}>
-          Verisk
-        </div>
-        <div className="exp-title" onClick={handleClick}>
-          Mythics
-        </div>
-        <div className="exp-title" onClick={handleClick}>
-          Khoury
-        </div>
-      </div>
-      <div className="vl"></div>
-      <div className="experience-content" style={{ width: "66%" }}>
-        <Typography variant="h5">
-          {experiences[experienceTitle].title}
-        </Typography>
-        <br />
-        <Typography>{experiences[experienceTitle].date}</Typography>
-        <br />
-        <Typography color="gray">
-          {experiences[experienceTitle].desc}
-        </Typography>
-      </div> */}
     </div>
   );
 };

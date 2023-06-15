@@ -1,7 +1,7 @@
 import { Card } from "@mui/material";
 import React, { useState } from "react";
-import "./ExperienceCard.css";
 import { Typography } from "@mui/material";
+import "./ExperienceCard.css";
 
 const ExperienceCard = (props) => {
   //   return <Card>Test</Card>;
@@ -10,7 +10,7 @@ const ExperienceCard = (props) => {
   const experiences = {
     Verisk: {
       title: "Software Development Co-op",
-      desc: "TBD",
+      desc: "Incoming SWE Intern at Verisk Analytics.",
       // desc: "Verisk is a data analytics company that provides data, analytics, and decision-support services for professionals in insurance, natural resources, financial services, and risk management.",
       date: "July 2023 - Present",
       // bullets: [
@@ -29,7 +29,8 @@ const ExperienceCard = (props) => {
     },
     Khoury: {
       title: "Teaching Assistant",
-      desc: "TBD",
+      desc:
+        "Introducing 330+ students to principles of systematic problem solving, rules of computation, and design principles through office hours, labs, grading, and online forums.",
       date: "October 2021 - Present",
     },
   };
@@ -57,7 +58,7 @@ const ExperienceCard = (props) => {
         </div>
       </div>
       <div className="vl"></div>
-      <div className="experience-content" style={{ width: "66%" }}>
+      <div className="experience-content">
         <Typography variant="h5">
           {experiences[experienceTitle].title}
         </Typography>
