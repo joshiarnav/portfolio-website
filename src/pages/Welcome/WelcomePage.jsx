@@ -7,7 +7,7 @@ const WelcomePage = (props) => {
     <PageBox id="welcome">
       <div
         style={{
-          height: "100%",
+          height: "80vh",
           justifyContent: "center",
           display: "flex",
           flexDirection: "column",

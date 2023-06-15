@@ -2,6 +2,7 @@ import React from "react";
 import TitledPageBox from "../../components/TitledPageBox/TitledPageBox";
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import { Grid } from "@mui/material";
+import "./ProjectsPage.css";
 
 const ProjectsPage = () => {
   const projects = [
@@ -41,14 +42,22 @@ const ProjectsPage = () => {
   ];
 
   const projectCards = projects.map((project) => (
-    <Grid item xs={6} md={4}>
+    // <Grid item xs={6} md={4}>
+    //   <ProjectCard
+    //     title={project.title}
+    //     desc={project.desc}
+    //     github={project.github}
+    //     link={project.link}
+    //   ></ProjectCard>
+    // </Grid>
+    <div class="grid-item">
       <ProjectCard
         title={project.title}
         desc={project.desc}
         github={project.github}
         link={project.link}
       ></ProjectCard>
-    </Grid>
+    </div>
   ));
 
   return (
@@ -58,9 +67,10 @@ const ProjectsPage = () => {
       id="projects"
     >
       <div style={{ marginLeft: "7.5%", marginRight: "7.5%" }}>
-        <Grid container spacing={6} marginTop="0.5rem">
+        {/* <Grid container spacing={6} marginTop="0.5rem">
           {projectCards}
-        </Grid>
+        </Grid> */}
+        <div class="grid-container">{projectCards}</div>
       </div>
     </TitledPageBox>
   );

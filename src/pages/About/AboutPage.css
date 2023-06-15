@@ -7,3 +7,38 @@ img {
   height: auto;
   border-radius: 5%;
 }
+
+.grid-container-about {
+  display: grid;
+  /* grid-template-columns: repeat(2, 1fr); */
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 4rem;
+}
+
+.grid-item-about {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.portrait img {
+  width: 100%;
+  height: auto;
+}
+
+.description h5 {
+  margin-bottom: 2.5%;
+}
+
+@media (min-width: 769px) {
+  .grid-container-about {
+    grid-template-columns: 1fr 2fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .grid-container-about {
+    grid-template-columns: 1fr;
+  }
+}

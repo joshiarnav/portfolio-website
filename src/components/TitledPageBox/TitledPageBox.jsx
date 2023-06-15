@@ -14,8 +14,19 @@ const TitledPageBox = (props) => {
         }}
       >
         <Typography variant="h4">{props.title}</Typography>
-        <Typography variant="h6">{props.desc}</Typography>
+        <br />
+        <Typography
+          variant="h6"
+          style={{
+            marginLeft: "7.5%",
+            marginRight: "7.5%",
+            textAlign: "center",
+          }}
+        >
+          {props.desc}
+        </Typography>
       </div>
+      <br />
       {props.children}
     </PageBox>
   );
