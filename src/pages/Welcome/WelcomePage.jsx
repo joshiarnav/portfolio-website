@@ -1,19 +1,12 @@
 import React from "react";
 import PageBox from "../../components/PageBox/PageBox";
 import { Typography } from "@mui/material";
+import "./WelcomePage.css";
 
 const WelcomePage = (props) => {
   return (
     <PageBox id="welcome">
-      <div
-        style={{
-          height: "80vh",
-          justifyContent: "center",
-          display: "flex",
-          flexDirection: "column",
-          paddingLeft: "5%",
-        }}
-      >
+      <div className="welcomebody">
         <Typography variant="h6">Hi! My name is</Typography>
         <Typography variant="h1" fontWeight="bold">
           Arnav Joshi
