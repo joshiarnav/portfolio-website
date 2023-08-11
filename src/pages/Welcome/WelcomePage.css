@@ -1,0 +1,15 @@
+.welcomebody {
+  height: 80vh;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding-left: 5%;
+  text-align: left;
+}
+
+@media (max-width: 768px) {
+  .welcomebody {
+    text-align: center;
+    padding-left: 0;
+  }
+}
