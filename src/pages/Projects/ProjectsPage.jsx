@@ -9,34 +9,35 @@ const ProjectsPage = () => {
     {
       title: "TruCanvas",
       desc: "Live networked paint application with multiple tools.",
-      github: "#experience",
+      github: "https://github.com/joshiarnav/TruCanvas",
     },
     {
       title: "Valiant Analysis",
       desc: "An NLP pipeline for Q&A analysis in the classroom.",
-      github: "#experience",
+      github: "https://github.com/joshiarnav/Valiant_Analysis",
     },
     {
       title: "Portfolio Website",
       desc: "Exactly what you're looking at! Built using MUI and React.",
-      github: "#experience",
-      link: "#experience",
+      github: "https://github.com/joshiarnav/portfolio-website",
+      link: "#",
+      linkAlert: "Recursion!",
     },
     {
       title: "GAN",
       desc: "Generative Adversarial Network that generates images of faces.",
-      github: "#experience",
+      github: "#projects",
+      githubAlert: "This link will be added soon!",
     },
     {
       title: "MBTI Text Classifier",
       desc: "Text classifier to predict personality type on writing style.",
-      github: "#experience",
+      github: "https://github.com/joshiarnav/MBTI",
     },
     {
       title: "NBA Player Clustering",
       desc: "Clustering algorithm to group NBA players based on playstyle.",
-      github: "#experience",
-      link: "#experience",
+      github: "https://github.com/joshiarnav/ds4400project",
     },
   ];
 
@@ -54,7 +55,9 @@ const ProjectsPage = () => {
         title={project.title}
         desc={project.desc}
         github={project.github}
+        githubAlert={project.githubAlert}
         link={project.link}
+        linkAlert={project.linkAlert}
       ></ProjectCard>
     </div>
   ));
