@@ -10,7 +10,7 @@ const ExperienceCard = (props) => {
   const experiences = {
     Verisk: {
       title: "Software Development Co-op",
-      desc: "Incoming SWE Intern at Verisk Analytics.",
+      desc: "Implementing CI/CD pipelines with Python, DotNet, and Angular projects for 30+ company repositories. Designing & testing AWS lambda deployment to maintain 99.99%+ uptime for company services.",
       // desc: "Verisk is a data analytics company that provides data, analytics, and decision-support services for professionals in insurance, natural resources, financial services, and risk management.",
       date: "July 2023 - Present",
       // bullets: [
@@ -23,15 +23,13 @@ const ExperienceCard = (props) => {
     },
     Mythics: {
       title: "Software Development Co-op",
-      desc:
-        "Worked on Oracle Landing Zone code to automate the creation of Oracle Cloud Infrastructure resources and decrease engineering overhead by up to 80%",
+      desc: "Worked on Oracle Landing Zone code to automate the creation of Oracle Cloud Infrastructure resources and decrease engineering overhead by up to 80%",
       date: "June 2022 - December 2022",
     },
     Khoury: {
       title: "Teaching Assistant",
-      desc:
-        "Introducing 330+ students to principles of systematic problem solving, rules of computation, and design principles through office hours, labs, grading, and online forums.",
-      date: "October 2021 - Present",
+      desc: "Introduced 330+ students to principles of systematic problem solving, rules of computation, and design principles through office hours, labs, grading, and online forums.",
+      date: "October 2021 - July 2023",
     },
   };
   function handleClick(e) {

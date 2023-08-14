@@ -1,6 +1,7 @@
 import React from "react";
 import TitledPageBox from "../../components/TitledPageBox/TitledPageBox";
 import ExperienceCard from "../../components/ExperienceCard/ExperienceCard";
+import "./ExperiencePage.css";
 
 const ExperiencePage = () => {
   return (
@@ -9,17 +10,7 @@ const ExperiencePage = () => {
       desc="Here's what I've been up to!"
       id="experience"
     >
-      <div
-        style={{
-          justifyContent: "center",
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-          flex: "auto",
-          marginTop: "2.5%",
-          paddingBottom: "10%",
-        }}
-      >
+      <div className="card-holder">
         <ExperienceCard />
       </div>
     </TitledPageBox>
