@@ -42,8 +42,7 @@ const Navbar = () => {
     { name: "Projects", href: "#projects" },
     {
       name: "Resume",
-      href:
-        "https://drive.google.com/file/d/1hXUNC39PfBKwWu6QdSngr82rz1YgkW8V/view?usp=sharing",
+      href: "https://drive.google.com/file/d/1HAjNG0ZrXUpNPfKOJA4RqHzmSlZtlu5B/view?usp=sharing",
     },
   ];
 
